@@ -1,4 +1,4 @@
-# Tic-tac-toe-TD-Learning
+# tic-tac-toe-TD-Learning with c++
 A reinforcement learning agent with tic-tac-toe
 
 ## 1. How to Build
