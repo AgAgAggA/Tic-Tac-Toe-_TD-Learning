@@ -20,10 +20,7 @@ void Train::start()
             p2_chess = 0;
         player1.set_chess(p1_chess);
         player2.set_chess(p2_chess);
-        std::cout << player_name1 << " play " << p1_chess << "\n";
-        std::cout << player_name2 << " play " << p2_chess << "\n";
         Game new_game;
-        std::cout << "-----------------------------\n";
         while (1)
         {
             bool play = true;
@@ -31,23 +28,15 @@ void Train::start()
             {
                 if (play)
                     play &= player1.take_action(new_game);
-                new_game.print_board();
-                std::cout << "-----------------------------\n";
                 if (play)
                     play &= player2.take_action(new_game);
-                new_game.print_board();
-                std::cout << "-----------------------------\n";
             }
             else
             {
                 if (play)
                     play &= player2.take_action(new_game);
-                new_game.print_board();
-                std::cout << "-----------------------------\n";
                 if (play)
                     play &= player1.take_action(new_game);
-                new_game.print_board();
-                std::cout << "-----------------------------\n";
             }
             if (!play)
                 break;
