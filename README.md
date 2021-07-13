@@ -17,4 +17,4 @@ $ make
 
 ## 3. How to test and evaluate
 Train function in main can be activate for training the agent.
-Pretrained agents are named GaryOP and DalenOP.
+*Pretrained agents are named GaryOP and DalenOP.
