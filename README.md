@@ -2,7 +2,7 @@
 A reinforcement learning agent with tic-tac-toe
 
 ## 1. How to Build
-**Step 1:** Download the source code. For example,
+**Step 1:** Download the source code.
 
 **Step 2:** Go to the project root and build by
 ~~~
