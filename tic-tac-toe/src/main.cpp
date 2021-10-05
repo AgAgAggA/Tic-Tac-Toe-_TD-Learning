@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-    srand (time (0))
+    srand (time (0));
     /*training agent*/
     //auto train = Train("GaryOp", "DalenOp", 300000);
     //train.start();
