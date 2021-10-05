@@ -16,4 +16,4 @@ $ make
 ./main
 
 ## 3. How to test and evaluate
-Train function in main can be activate for training the agent.
+Train function in main can be activated for training the agent.
